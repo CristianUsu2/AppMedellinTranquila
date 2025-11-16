@@ -1,0 +1,38 @@
+<ion-content>
+
+  <div class="container">
+
+    <h1 class="title">Medellín Tranquila</h1>
+    <p class="subtitle">¡Tú importas!</p>
+
+    <div class="form">
+
+      <label class="label">Correo Electrónico</label>
+      <input class="input" type="email" placeholder="hola@usuario.co">
+
+      <label class="label">Clave</label>
+      <input class="input" type="password" placeholder="••••••">
+
+      <!-- 🔥 Función correcta -->
+      <button class="btn-primary" (click)="goToDashboard()">
+        Iniciar Sesión
+      </button>
+
+      <!-- 🔥 Función correcta -->
+      <button class="btn-outline" (click)="goToRegister()">
+        Crear Cuenta
+      </button>
+
+      <p class="or">o</p>
+
+      <!-- 🔥 Función correcta -->
+      <button class="btn-gray" (click)="goToGuest()">
+        Continuar como anónimo
+      </button>
+
+    </div>
+
+  </div>
+
+</ion-content>
+
