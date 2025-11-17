@@ -13,7 +13,7 @@ import { RespiracionPage } from './pages/respiracion/respiracion.page';
 import { ContactoPage } from './pages/contacto/contacto.page';
 import { PrivacidadPage } from './pages/privacidad/privacidad.page';
 import { NotificacionesPage } from './pages/notificaciones/notificaciones.page';
-
+import { FormularioEmocionalPage } from './pages/formulario-emociones/formulario-emociones.page';
 import { TabsPage } from './tabs/tabs.page';
 
 
@@ -29,6 +29,8 @@ export const routes: Routes = [
   // Login / Registro
   { path: 'login', component: LoginPage },
   { path: 'register', component: RegisterPage },
+   { path: 'registro-emocional', component: RegistroEmocionalPage },
+    { path: 'formulario-emocionales', component: FormularioEmocionalPage },
 
   // ⭐ TABS (5 pestañas principales)
   {
