@@ -1,12 +1,12 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { RegistroEmocionalPage } from './formulario-emociones.page';
+import { FormularioEmocionalPage } from './formulario-emociones.page';
 
-describe('RegistroEmocionalPage', () => {
-  let component: RegistroEmocionalPage;
-  let fixture: ComponentFixture<RegistroEmocionalPage>;
+describe('FormularioEmocionalPage', () => {
+  let component: FormularioEmocionalPage;
+  let fixture: ComponentFixture<FormularioEmocionalPage>;
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(RegistroEmocionalPage);
+    fixture = TestBed.createComponent(FormularioEmocionalPage);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
