@@ -2,16 +2,24 @@ ion-content {
   --background: #f4f4f4;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   padding-top: 20px;
 }
 
 .container {
   width: 360px;
+  margin-top: 10%;
   background: white;
-  padding: 25px;
+  padding: 16px;
   border-radius: 20px;
   box-shadow: 0px 4px 20px rgba(0,0,0,0.1);
+}
+// Android
+@media (max-width: 767px) {
+  .container {
+    width: 90%;
+    margin-top: 50%;
+  }
 }
 
 .title {
@@ -52,7 +60,7 @@ ion-content {
 .btn-primary {
   width: 100%;
   padding: 14px;
-  background: #1c43d6;
+  background: linear-gradient(45deg, #1a1054, #255ff1);
   color: white;
   border: none;
   border-radius: 14px;
