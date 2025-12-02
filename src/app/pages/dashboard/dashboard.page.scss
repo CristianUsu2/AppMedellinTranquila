@@ -1,12 +1,11 @@
 
-// baner
-.welcome-text {
+.header {
+  text-align: center;
   background: linear-gradient(45deg, #1a1054, #255ff1);
-  margin-bottom: 10px;
+  font-size: 18px;
   padding: 20px;
   color: white;
 }
-
 
 
 /* 🔵 CARD ESTADO EMOCIONAL */
@@ -106,7 +105,7 @@
 
 // Android
 @media (max-width: 767px) {
-  .welcome-text {
+ .header {
     padding: 15px;
     font-size: 14px;
     margin-top: 8%;
