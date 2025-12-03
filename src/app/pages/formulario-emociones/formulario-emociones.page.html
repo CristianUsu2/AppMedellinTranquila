@@ -1,25 +1,15 @@
-<ion-header [translucent]="true">
-  <ion-toolbar class="bg-primary">
-    <ion-title class="text-white fw-normal">Formulario Emocional</ion-title>
-  </ion-toolbar>
-</ion-header>
 
-<ion-content [fullscreen]="true" class="p-3">
-  <!-- Saludo -->
-
-  <div
-    class="welcome-text mb-4 p-5 rounded-3"
-    style="background: linear-gradient(90deg, #0038b8, #4c8cff)"
-  >
-    <p class="text-light">Registro diario</p>
-    <p class="text-light">Fecha: {{dateActually}}</p>
-  </div>
+<header class="header">
+  <h1 class="ion-text-center">Registro diario</h1>
+  <h5 class="ion-text-center">{{dateActually}}</h5>
+</header>
+<ion-content>
 
   <div class="container">
     <!-- Estado emocional -->
-    <div class="container">
+    <div class="container-stado">
       <div class="row">
-        <div class="col-12 rounded-3 p-4 mb-4 border border-dark">
+        <div class="col-12 rounded-3 p-4 mb-4 ">
           <div class="section-title mb-3">¿Como te sientes?</div>
           <!-- Cards de emociones -->
           <div class="row g-3">
@@ -80,10 +70,10 @@
     </div>
 
     <!-- Acceso rápido -->
-    <div class="container">
+    <div class="container-nivel-energia">
       <div class="row">
-        <div class="col-12 rounded-3 p-4 mb-4 border border-dark">
-          <div class="section-title mb-3">Nivel de energia</div>
+        <div class="col-12 rounded-3 p-4 mb-4 ">
+          <div class="section-title mb-3 ">Nivel de energia</div>
 
           <!-- Opciones de energía -->
           <div class="row g-3">
@@ -152,9 +142,7 @@
       <div class="col-12 py-3">
         <div class="text-center border" (click)="goToMeditation()">
           <button
-            class="btn btn-primary w-100 py-3 register-button"
-            style="background: linear-gradient(90deg, #0038b8, #4c8cff)"
-          >
+            class="btn btn-primary w-100 py-3 register-button">
             Guardar
           </button>
         </div>

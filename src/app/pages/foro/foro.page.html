@@ -1,68 +1,59 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>foro</ion-title>
-  </ion-toolbar>
-</ion-header>
+<header class="header">
+  <h1 class="ion-text-center">Foro</h1>
+</header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">foro</ion-title>
-    </ion-toolbar>
-  </ion-header>
-  
-<ion-content [fullscreen]="true" class="p-3">
-  <!-- Saludo -->
-
-  <div
-    class="welcome-text mb-4  p-5 rounded-3"
-    style="background: linear-gradient(90deg, #0038b8, #4c8cff)"
-  >
-    <p class="text-light">foro</p>
-  </div>
-
-
-    <button class="btn btn-primary w-50 py-3 mb-4 register-button mx-auto d-block">
-            
-          
-            realizar un comentario 
-          </button>
-
-    
-
+<ion-content [fullscreen]="undefined">
+  <div class="container">
     <!-- Acceso rápido -->
-    <div class="container">
-      <div class="row">
-        <div class="col-12 rounded-3 p-4 mb-4 border border-dark">
-          <div class="section-title mb-3">comentarios recccientes</div>
-
-         <p>Al contrario del pensamiento popular, el texto de Lorem Ipsum no es simplemente texto
-           aleatorio. Tiene sus raices en una pieza clsica de la literatura del Latin, que data del
-            año 45 antes de Cristo
-
-          </p>
-            
-            </div>
-          </div>
-        </div>
-            <div class="container">
-      <div class="row">
-        <div class="col-12 rounded-3 p-4 mb-4 border border-dark">
-          <div class="section-title mb-3">comentarios recccientes</div>
-
-         <p>Al contrario del pensamiento popular, el texto de Lorem Ipsum no es simplemente texto
-           aleatorio. Tiene sus raices en una pieza clsica de la literatura del Latin, que data del
-            año 45 antes de Cristo
-
-          </p>
-            
-            </div>
-          </div>
-        </div>
- 
+    <div class="comment">
+      <h4><strong>Usuario: @LunaEquilibrada</strong></h4>
+      <p>
+        Tuve una crisis de ansiedad en el trabajo y me dio vergüenza contarlo,
+        pero hablarlo con mi jefe fue liberador. Me apoyó más de lo que esperaba
+        y hoy manejo mejor mis emociones
+      </p>
+      <time datetime="2025-12-01">1 de diciembre de 2025</time>
+    </div>
+    <div class="comment">
+      <h4><strong>Usuario: @MindfulCarlos</strong></h4>
+      <p>
+        Hace unos meses pensé que no podía con todo, pero empezar terapia me
+        ayudó a entender que no tenía que cargar sola. Ha sido un proceso duro,
+        pero estoy aprendiendo a valorarme.
+      </p>
+      <time datetime="2025-12-01">1 de diciembre de 2025</time>
+    </div>
+    <div class="comment">
+      <h4><strong>Usuario: @SerenidadDigital</strong></h4>
+      <p>
+        Perdí a un familiar hace poco y mi mente quedó saturada. Empecé a
+        escribir un diario para desahogarme y se ha convertido en una de mis
+        mejores terapias.
+      </p>
+      <time datetime="2025-12-01">1 de diciembre de 2025</time>
+    </div>
+    <div class="comment">
+      <h4><strong>Usuario: @VidaEnBalance</strong></h4>
+      <p>
+        Por años dije que estaba ‘bien’, aunque no lo estaba. Solo hasta que
+        toqué fondo entendí que pedir ayuda no es fallar, sino empezar a sanar.
+        Hoy me siento más ligera.
+      </p>
+      <time datetime="2025-12-01">1 de diciembre de 2025</time>
+    </div>
+    <div class="comment">
+      <h4><strong>Usuario: @RespiraYAvanza</strong></h4>
+      <p>
+        Estuve semanas sin energía para hacer nada. Pensé que era flojera, pero
+        resultó ser agotamiento mental. Cambiar pequeños hábitos me ha devuelto
+        la motivación.
+      </p>
+      <time datetime="2025-12-01">1 de diciembre de 2025</time>
+    </div>
     
-  
+  </div>
+  <div class="btn">
+      <button class="btn-Comentario">Agregar comentario</button>
+      <button class="btn-Comentario" onclick="history.back()">volver</button>
+    </div>
 </ion-content>
-
-
-

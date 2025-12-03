@@ -1,9 +1,9 @@
+<header class="header">
+  <h1 class="ion-text-center">Hola, Usuario</h1>
+  <h5 class="ion-text-center">¿Cómo te sientes hoy?</h5>
+</header>
+
 <ion-content>
-
-  <div class="container">
-
-    <h1 class="title">Hola, Usuario</h1>
-    <p class="subtitle">¿Cómo te sientes hoy?</p>
 
     <!-- BLOQUE ESTADO EMOCIONAL -->
 <div class="estado-card">
@@ -11,10 +11,10 @@
     <span class="titulo-seccion">Estado emocional 😁</span>
   </div>
 
-  <button class="btn-estado" (click)="goTo('formulario-emocionales')">
+  <button class="btn-estado" (click)="goFormularioEmocionales()">
     Registrar estado de hoy
   </button>
-
+</div>
   <div class="stats">
     <div class="stat-item">
       <h3>09</h3>
@@ -26,26 +26,34 @@
       <p>Estado positivo</p>
     </div>
   </div>
-</div>
+
 
 <!--  ACCESO RÁPIDO -->
 <h3 class="titulo-acceso">Acceso Rápido</h3>
 
 <div class="quick-access">
 
-  <button class="qa-card" (click)="goTo('meditaciones')">
-    <img src="assets/icon/meditacioncorazon.png" class="qa-icon">
+  <button class="qa-card" (click)="goMeditaciones()">
+    <img src="assets/icon/Meditacion.png" class="qa-icon">
     <span>Meditación</span>
   </button>
 
-  <button class="qa-card" (click)="goTo('contacto')">
-    <img src="assets/icon/ayuda-psicologica.png" class="qa-icon">
+  <button class="qa-card" (click)="goContacto()">
+    <img src="assets/icon/Ayuda.png" class="qa-icon">
     <span>Ayuda</span>
   </button>
 
-</div>
+    <button class="qa-card" (click)="goForo()">
+    <img src="assets/icon/comentario-alt.png" class="qa-icon">
+    <span>Foro</span>
+  </button>
 
-  </div>
+    <button class="qa-card" (click)="goNotificaciones()">
+    <img src="assets/icon/Notificacion.png" class="qa-icon">
+    <span>Notificaciones</span>
+  </button>
+
+</div>
 
 </ion-content>
 

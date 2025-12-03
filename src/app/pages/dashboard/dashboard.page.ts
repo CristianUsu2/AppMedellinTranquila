@@ -14,8 +14,24 @@ export class DashboardPage {
 
   constructor(private router: Router) {}
 
-  goTo(route: string) {
-    this.router.navigate([`/${route}`]);
+  goForo() {
+    this.router.navigate(['/tabs/foro']);
+  }
+
+  goMeditaciones() {
+    this.router.navigate(['/tabs/meditaciones']);
+  }
+
+  goContacto() {
+    this.router.navigate(['/tabs/contacto']);
+  }
+
+  goNotificaciones() {
+    this.router.navigate(['/tabs/notificaciones']);
+  }
+
+  goFormularioEmocionales() {
+    this.router.navigate(['/tabs/formulario-emocionales']);
   }
 
 }
